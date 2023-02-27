@@ -1,4 +1,8 @@
 {
   "itemGroup.luminous": "Luminous",
-  "item.luminous.sand_of_time": "Sand of time"
+  "item.luminous.sand_of_time": "Sand of time",
+  "item.luminous.music_disc_starlight": "Music Disc",
+  "item.luminous.music_disc_starlight.desc": "The Supermen Lovers Feat. Mani Hoffman – Starlight",
+  "item.luminous.music_disc_memento": "Music Disc",
+  "item.luminous.music_disc_memento.desc": "nonoc - Memento"
 }

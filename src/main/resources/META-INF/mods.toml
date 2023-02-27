@@ -56,3 +56,9 @@ mandatory = true
 versionRange = "[1.16.5,1.17)"
 ordering = "NONE"
 side = "BOTH"
+[[dependencies.luminous]]
+modId="tiab"
+mandatory=true
+versionRange="[1.1.0,)"
+ordering="BEFORE"
+side="BOTH"

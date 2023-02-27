@@ -1,0 +1,18 @@
+{
+  "music_disc.starlight": {
+    "sounds": [
+      {
+        "name": "luminous:records/starlight",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.memento": {
+    "sounds": [
+      {
+        "name": "luminous:records/memento",
+        "stream": true
+      }
+    ]
+  }
+}

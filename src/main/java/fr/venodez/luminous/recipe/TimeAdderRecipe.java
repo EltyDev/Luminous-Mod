@@ -1,10 +1,8 @@
 package fr.venodez.luminous.recipe;
 
 import com.haoict.tiab.common.registries.ItemRegistry;
-import fr.venodez.luminous.Luminous;
 import fr.venodez.luminous.item.ModItems;
 import net.minecraft.inventory.CraftingInventory;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.item.crafting.IRecipeSerializer;
@@ -24,7 +22,6 @@ public class TimeAdderRecipe extends SpecialRecipe {
 
     @Override
     public boolean matches(CraftingInventory inv, World worldIn) {
-        System.out.println("YOOOOO");
         nbSand = 0;
         bottleIndex = -1;
         int nbBottle = 0;
@@ -43,9 +40,7 @@ public class TimeAdderRecipe extends SpecialRecipe {
             } else
                 ++nbSand;
         }
-        if (nbSand == 0)
-            return (false);
-        return (true);
+        return nbSand != 0;
     }
 
     @Override
