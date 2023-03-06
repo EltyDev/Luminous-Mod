@@ -12,7 +12,7 @@ public class ModEnchantments {
     public static final DeferredRegister<Enchantment> ENCHANTMENTS = DeferredRegister.create(ForgeRegistries.ENCHANTMENTS, Luminous.MOD_ID);
 
     public static final RegistryObject<Enchantment> EXPANSION = ENCHANTMENTS.register("expansion", () ->
-        new ExpansionEnchantment(Enchantment.Rarity.RARE));
+        new ExpansionEnchantment(Enchantment.Rarity.VERY_RARE));
 
     public static void register(IEventBus eventBus) {
         ENCHANTMENTS.register(eventBus);

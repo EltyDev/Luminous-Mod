@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "fr.venodez.luminous.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "luminous.refmap.json",
+  "client": [
+    "CapeLayerMixin",
+    "ElytraLayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
